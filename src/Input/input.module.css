@@ -1,0 +1,12 @@
+.formInput {
+  border: 1px solid pink;
+  border-radius: 30px;
+  background-color: white;
+  padding: 10px;
+  width: 200px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition: background-color 0s 600000s, color 0s 600000s;
+}
